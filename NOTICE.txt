@@ -1,0 +1,5 @@
+This project uses the following third-party libraries:
+
+- iText 7 (AGPLv3) — https://itextpdf.com/
+
+Please consult each library's licensing terms for more details.
