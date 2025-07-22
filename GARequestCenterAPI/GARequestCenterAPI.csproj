@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Fonts\AngsanaNew\ANGSA.ttf" />
+    <None Remove="Fonts\DB Heavent Bd v3.2.1.ttf" />
+    <None Remove="Fonts\DB Heavent Med v3.2.ttf" />
+    <None Remove="Fonts\DB Heavent v3.2.1.ttf" />
+    <None Remove="Fonts\SarabunSun\THSarabun.ttf" />
+    <None Remove="Fonts\SarabunSun\THSarabunBold.ttf" />
+    <None Remove="Fonts\SarabunSun\THSarabunNew.ttf" />
+    <None Remove="Fonts\THSarabunNew.ttf" />
+    <None Remove="Fonts\THSarabunNewBold.ttf" />
+    <None Remove="Fonts\THSarabunNewBoldItalic.ttf" />
+    <None Remove="Fonts\THSarabunNewItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fonts\AngsanaNew\ANGSA.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\DB_Heavent\DB Heavent Bd v3.2.1.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\DB_Heavent\DB Heavent Med v3.2.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\DB_Heavent\DB Heavent v3.2.1.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\SarabunSun\THSarabunBold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\SarabunSun\THSarabun.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\SarabunSun\THSarabunNew.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\Sarabun\THSarabunNew.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\Sarabun\THSarabunNewBold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\Sarabun\THSarabunNewBoldItalic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\Sarabun\THSarabunNewItalic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="itext7.bouncy-castle-adapter" Version="9.1.0" />
+    <PackageReference Include="itext7.pdfhtml" Version="6.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="9.0.0" />
+    <PackageReference Include="System.Text.Json" Version="9.0.7" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="9.0.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.11" />
+  </ItemGroup>
+</Project>
